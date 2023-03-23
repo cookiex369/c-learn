@@ -8,3 +8,4 @@ int main(){
     printf("%d%s\n",6," and this string are also a constants");
     return 0;
 }
+// 488754528 “湖师大咨询群”
