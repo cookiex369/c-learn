@@ -8,6 +8,11 @@ int main(){
     return 0;
 }
 
+//extern 不是定义变量，可以不指定类型，如:extern A,B,C 
+//但是gcc会警告，我就加上了。
+//要注意的是extern并不是声明变量，只是扩展了变量的作用域
+//还需要声明变量A，B，C ;
+
 int A,B,C;
 
 int max(){
